@@ -121,8 +121,7 @@ def tambah_data():
     simpan_data()
     print(f">> Data berhasil ditambahkan. No. Antrian: {data_baru['no']}")
 
-
-def tampilkan_data():                                # READ
+def tampilkan_data():
     tampilkan_header("DAFTAR ANTRIAN SERVIS ELEKTRONIK")
     if len(data_antrian) == 0:
         print("Belum ada data antrian.")
@@ -136,7 +135,6 @@ def tampilkan_data():                                # READ
     cetak_garis()
     print(f"Total antrian: {len(data_antrian)}")
     return True
-
 
 def ubah_data():
     if not tampilkan_data():
@@ -155,7 +153,6 @@ def ubah_data():
         item["keluhan"] = keluhan_baru
     simpan_data()
     print(">> Data berhasil diubah.")
-
 
 def hapus_data():
     if not tampilkan_data():
