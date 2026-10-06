@@ -1,0 +1,18 @@
+[
+    {
+        "no": 2,
+        "nama": "excel",
+        "perangkat": "ip",
+        "keluhan": "batre",
+        "status": "Menunggu",
+        "waktu": "06-10-2026 00:30"
+    },
+    {
+        "no": 3,
+        "nama": "jayu",
+        "perangkat": "ip",
+        "keluhan": "kamera",
+        "status": "Menunggu",
+        "waktu": "06-10-2026 00:35"
+    }
+]
